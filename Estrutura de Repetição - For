@@ -1,0 +1,302 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Estrutura de Repetição - For",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOy8cRLMoaovm48fxlTRzgn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rdnrubens97/Machine_Learning/blob/main/Estrutura%20de%20Repeti%C3%A7%C3%A3o%20-%20For\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uhrQEr2dkEr9",
+        "outputId": "3e9d2508-ffd8-4070-9775-18c4ba7de2d1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(1)\n",
+        "print(2)\n",
+        "print(3)\n",
+        "print(4)\n",
+        "print(5)\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for numero in range(1, 6):\n",
+        "  print(numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Sitrj-NrmP_A",
+        "outputId": "6e6ac567-8eeb-40cd-e3f2-6033e0ff5286"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(1)\n",
+        "print(3)\n",
+        "print(5)\n",
+        "print( )\n",
+        "\n",
+        "\n",
+        "\n",
+        "for numero in range(1, 6, 2):\n",
+        "  print(numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qBLJIVuSmj-w",
+        "outputId": "b14e515c-fc15-42c6-bb1c-062fd602278a"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "3\n",
+            "5\n",
+            "\n",
+            "1\n",
+            "3\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for numero in range (5, 0, -1):\n",
+        "  print(numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BOxUj1yRnHkl",
+        "outputId": "5eafc5f7-5cf5-4d03-914f-262e7af3aea3"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5 + 4 + 3 + 2 + 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JBzoUWHAnVuQ",
+        "outputId": "18691ff1-31b2-484a-f10d-911e3e80f35a"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "15"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "soma = 0\n",
+        "for numero in range(1,6):\n",
+        "  soma = soma + numero\n",
+        "  print(soma)\n",
+        "print( )\n",
+        "print(soma)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "afHC5JmMn9Fz",
+        "outputId": "b00d09f3-9346-4538-be02-94c9955a898d"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "3\n",
+            "6\n",
+            "10\n",
+            "15\n",
+            "\n",
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "palavra = \"sucesso\"\n",
+        "for letra in palavra:\n",
+        "  if letra == \"s\":\n",
+        "    print(\"A palavra tem a letra 's'\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6tQ6ogV_oSlJ",
+        "outputId": "99215459-3fdc-4132-8b9b-2d091849b24b"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A palavra tem a letra 's'\n",
+            "A palavra tem a letra 's'\n",
+            "A palavra tem a letra 's'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "soma = 0\n",
+        "for numero in range (0,5):\n",
+        "  print(numero)\n",
+        "  print(\"---\")\n",
+        "  for numero in range (0,3): \n",
+        "    print(numero)\n",
+        "  print()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8-8SJSrNEgiv",
+        "outputId": "f98990ac-b06f-435c-bca4-aa63e9f09619"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n",
+            "---\n",
+            "0\n",
+            "1\n",
+            "2\n",
+            "\n",
+            "1\n",
+            "---\n",
+            "0\n",
+            "1\n",
+            "2\n",
+            "\n",
+            "2\n",
+            "---\n",
+            "0\n",
+            "1\n",
+            "2\n",
+            "\n",
+            "3\n",
+            "---\n",
+            "0\n",
+            "1\n",
+            "2\n",
+            "\n",
+            "4\n",
+            "---\n",
+            "0\n",
+            "1\n",
+            "2\n",
+            "\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
