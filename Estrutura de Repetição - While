@@ -1,0 +1,209 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO7y7grFRsomKPaDRZzv6te",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rdnrubens97/Machine_Learning/blob/main/Estrutura%20de%20Repeti%C3%A7%C3%A3o%20-%20While\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V6DzuFCAGAsK",
+        "outputId": "2b343daa-1d60-45df-b020-6679d2c58ab3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(1)\n",
+        "print(2)\n",
+        "print(3)\n",
+        "print(4)\n",
+        "print(5)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = 1\n",
+        "while numero < 6:\n",
+        "  print(numero)\n",
+        "  numero = numero + 1\n",
+        "print(\"---\")\n",
+        "  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Jt7pHQStGcBu",
+        "outputId": "eaedc25b-b90b-48b5-9601-a42c06227cef"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "---\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = 5\n",
+        "while numero > 0:\n",
+        "  print(numero)\n",
+        "  numero = numero - 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F8a1I9wLHKQ3",
+        "outputId": "7a01b719-2beb-462a-9ac9-ec454a2ed9d5"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "1 + 2 + 3 + 4 + 5"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VLHhwxdDH2Mk",
+        "outputId": "de879669-6fe3-4455-9314-951614cb20f3"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "15"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "soma = 0\n",
+        "numero = 1\n",
+        "while numero < 6:\n",
+        "  soma = soma + numero\n",
+        "  numero = numero + 1\n",
+        "print(soma)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SWfGq06eH5kP",
+        "outputId": "d9b754a6-8e23-49e1-8dc2-a0e1721cdbfb"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#validação\n",
+        "\n",
+        "numero = -10\n",
+        "while numero < 1 or numero > 10:\n",
+        "  numero = float(input(\"Digite um número de 1 a 10:  \"))\n",
+        "print(\"Parabéns, o número digitado está dentro dos limites aceitáveis.\")\n",
+        "  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mpm7HBpkI9ym",
+        "outputId": "d1711785-d135-4477-d003-5ece20dba071"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número de 1 a 10:  10\n",
+            "Parabéns, o número digitado está dentro dos limites aceitáveis.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
